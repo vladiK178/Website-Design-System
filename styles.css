@@ -1,0 +1,211 @@
+/* Default Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:ivory;
+    color: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1 {   
+    font-size: 2.0em;
+    font-weight:900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-decoration:overline;
+    line-height:1.5em;
+}
+
+h2 {  
+    font-size: 1.75em;
+    font-weight:700;
+    text-align: center;   
+    text-transform: uppercase;
+    text-decoration:overline;
+    line-height:1.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight:500;
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration:overline; 
+    line-height:1.5em;  
+}
+
+p {
+    text-align: center;
+    padding: 10px 
+}
+
+ul {
+    text-align: center;
+    list-style-type:none;
+    margin-top: 15px;
+}
+
+li {
+    padding: 3px;
+}
+
+.headingstyle {
+    text-decoration: none;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+/* Content Containers */
+
+.container {
+    border: 3px #0D0D0D solid;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    max-width: fit-content;
+}
+
+.fontframe, .stylesframe, .swatchframe, .buttonframe {
+    padding: 20px;
+    margin: 20px;
+    background-color:oldlace;
+    border-radius: 10px;
+}
+
+/* Colour Swatches */
+
+.swatchframe p {
+    color: #FFF;
+    padding-top: 190px;
+}
+
+.swatch {
+    width: 100px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.colour1 {
+    background-color: #BF656D;
+}
+
+.colour2 {
+    background-color: #B379D9;
+}
+
+.colour3 {
+    background-color: #482973;
+}
+
+.colour4 {
+    background-color: #704BBF;
+}
+
+.colour5 {
+    background-color: #0D0D0D;
+}
+
+/* Fonts and Text Styles */
+
+.firstfont, .secondfont, .thirdfont {
+    font-size: 1.2em;
+}
+
+.firstfont {
+    font-family: 'DM Sans', sans-serif; 
+}
+
+.secondfont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.thirdfont {
+    font-family: 'Noto Serif', serif;
+}
+
+.title {   
+    font-size:1.5em;
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration:overline;
+}
+
+.normal {
+    font-weight:normal;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.italics {
+    font-style:italic;
+}
+
+/* Buttons */
+
+/* Skeuomorphic buttons */
+
+/* button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+}
+  
+button:hover {
+    cursor: pointer;
+}
+  
+button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+} */
+
+/* Flat buttons */
+
+button {
+    background-color: #704BBF;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #704BBF;
+    color: #0D0D0D;   
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+  }
+
+button:hover {
+    background-color:#B379D9;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #B379D9;
+    color: #0D0D0D;   
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+}
+
+button:active {
+    margin-top: 5px;
+    color: #FFF;
+    box-shadow: 0px 0px;
+}
